@@ -1,0 +1,13 @@
+{
+  "provider": {
+    "local-gguf-engine": {
+      "npm": "node-llama-cpp",
+      "name": "Local GGUF Engine",
+      "options": {
+        "modelPath": "./models/qwen3-coder-30b.gguf",
+        "contextSize": 32768,
+        "gpuLayers": 32
+      }
+    }
+  }
+}

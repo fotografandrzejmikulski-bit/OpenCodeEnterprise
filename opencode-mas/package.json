@@ -1,0 +1,23 @@
+{
+  "name": "opencode-mas",
+  "version": "1.0.0",
+  "description": "Local-First OpenCode MAS with GGUF",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node build-llama.js",
+    "inspect:gpu": "npx --no node-llama-cpp inspect gpu"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-llama-cpp": "^3.18.1",
+    "node-telegram-bot-api": "^1.1.0",
+    "pdf-parse": "^2.4.5",
+    "playwright": "^1.60.0",
+    "socks-proxy-agent": "^10.1.0",
+    "tesseract.js": "^7.0.0"
+  }
+}
